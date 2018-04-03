@@ -1,0 +1,13 @@
+{
+  "name": "mx.com.prontatres.catalogo",
+  "version": "3.0.0",
+  "displayName": "Pronta Tres",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0"
+  }
+}
