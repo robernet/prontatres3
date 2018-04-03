@@ -34,6 +34,7 @@
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/tasklist.js"></script>
 </head>
 
 <body>
@@ -68,8 +69,8 @@
 
             <div>
                 <h4>Agregar Pendiente</h4>
-                <input type="text" class="input-text-box input-black-border">
-                <a id="addNewTask" href="#" class="button button-blue button-blue-3d">Button</a>
+                <input id="new-task-input" type="text" class="input-text-box input-black-border">
+                <a id="add-new-task" href="#" class="button button-blue button-blue-3d">Button</a>
                 <div class="clear"></div>
             </div>
 
@@ -77,7 +78,7 @@
 
             <div class="content no-bottom material-full-top">
                 <div class="container no-bottom">
-                    <div class="one-half-responsive">
+                    <div id="tasks-section" class="one-half-responsive">
                         <a href="#" class="tasklist-item tasklist-red tasklist-completed">
                             <i class="ion-checkmark"></i>
                             <h5>Prepare a Design</h5>
