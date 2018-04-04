@@ -24,5 +24,5 @@ function activateTwitter() {
 }
 
 function activateFacebook() {
-
+    alert('CLICK');
 }
