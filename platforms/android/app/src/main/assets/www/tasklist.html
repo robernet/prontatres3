@@ -24,16 +24,17 @@
 <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
     
 <title>Urbanizadora Pronta Tres</title>
-    
+
 <link rel="stylesheet" type="text/css" href="styles/reset.css">
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/skin.css">
 <link rel="stylesheet" type="text/css" href="styles/framework.css">
 <link rel="stylesheet" type="text/css" href="styles/ionicons/css/ionicons.min.css">
-    
+
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/tasklist.js"></script>
 </head>
 
 <body>
@@ -57,19 +58,114 @@
 <div class="flip-container">
     <div class="flipper">        
         <div id="page-content" class="front">
-            <div id="page-content-scroll"><!--Enables this element to be scrolled -->
-                <div class="map-fullscreen">
-                    <div class="map-text">
-                        <h3>Estamos en contacto!</h3>
-                        <p>
-                            Toca, para activar el mapa
-                        </p>
-                    </div>
-                    <div class="overlay"></div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d333.3497206700299!2d-98.24346044332394!3d19.045193848405074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc718aa5fc543%3A0x56c7aef9fe4e4bd1!2sUrbanizadora+Pronta+Tres+SA+de+CV!5e0!3m2!1ses-419!2smx!4v1521937211392"></iframe>
-                </div>
-                <a class="deactivate-map hide-map button button-red button-full" href="#">Desactivar Mapa</a>                
+            <div id="page-content-scroll" class="page-clear-top"><!--Enables this element to be scrolled -->        
+
+            <div class="heading-strip bg-1 no-bottom">
+                <h3>Pendientes</h3>
+                <p>Organizador de pendientes</p>
+                <i class="ion-checkmark"></i>
+                <div class="overlay dark-overlay"></div>
             </div>
+
+            <div>
+                <h1>EN CONSTRUCCION</h1>
+                <h4>Agregar Pendiente</h4>
+                <input id="new-task-input" type="text" class="input-text-box input-black-border">
+                <button id="add-new-task" class="button button-blue button-blue-3d">Button</button>
+                <div class="clear"></div>
+            </div>
+
+            <div class="decoration decoration-margins"></div>
+
+            <div class="content no-bottom material-full-top">
+                <div class="container no-bottom">
+                    <div id="tasks-section" class="one-half-responsive">
+                        <a href="#" class="tasklist-item tasklist-red tasklist-completed">
+                            <i class="ion-checkmark"></i>
+                            <h5>Prepare a Design</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-green">
+                            <i class="ion-checkmark"></i>
+                            <h5>Optimize for Mobiles</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-blue tasklist-completed">
+                            <i class="ion-checkmark"></i>
+                            <h5>Optimize for Tablets</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-magenta">
+                            <i class="ion-checkmark"></i>
+                            <h5>Use latest Trends</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-orange">
+                            <i class="ion-checkmark"></i>
+                            <h5>Design  User Experience</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-yellow">
+                            <i class="ion-checkmark"></i>
+                            <h5>Use Simple Coding</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-gray">
+                            <i class="ion-checkmark"></i>
+                            <h5>Document for Everyone</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-dark tasklist-completed">
+                            <i class="ion-checkmark"></i>
+                            <h5>Upload to ThemeForest</h5>
+                        </a>
+                        <div class="decoration"></div>
+                    </div>
+                    <div class="one-half-responsive last-column">
+                        <a href="#" class="tasklist-item tasklist-completed">
+                            <i class="ion-checkmark"></i>
+                            <h5>Prepare a Design</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item">
+                            <i class="ion-checkmark"></i>
+                            <h5>Optimize for Mobiles</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-completed">
+                            <i class="ion-checkmark"></i>
+                            <h5>Optimize for Tablets</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item">
+                            <i class="ion-checkmark"></i>
+                            <h5>Use latest Trends</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item">
+                            <i class="ion-checkmark color-green-dark"></i>
+                            <h5>Design  User Experience</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item">
+                            <i class="ion-checkmark"></i>
+                            <h5>Use Simple Coding</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item">
+                            <i class="ion-checkmark"></i>
+                            <h5>Document for Everyone</h5>
+                        </a>                    
+                        <a href="#" class="tasklist-item tasklist-completed">
+                            <i class="ion-checkmark"></i>
+                            <h5>Upload to ThemeForest</h5>
+                        </a>
+                        <div class="decoration"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decoration decoration-margins"></div>
+        
+                <div class="footer footer-dark">
+                    <a href="index.html" class="footer-logo scale-hover"></a>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.prontatres.mx/" class="icon icon-round icon-ghost icon-xs facebook-bg"><i class="ion-social-facebook"></i></a>
+                        <a href="https://twitter.com/home?status=Check%20out%20ThemeForest%20https://www.prontatres.mx" class="icon icon-round icon-ghost icon-xs twitter-bg"><i class="ion-social-twitter"></i></a>
+                        <a href="https://plus.google.com/share?url=https://www.prontatres.mx" class="icon icon-round icon-ghost icon-xs google-bg"><i class="ion-social-googleplus"></i></a>
+                        <a href="mailto:?&subject=Te recomiendo esta página!&body=https://www.prontatres.mx"  class="icon icon-round icon-ghost icon-xs mail-bg"><i class="ion-ios-email-outline"></i></a>
+                    </div>
+                    <div class="decoration"></div>
+                    <p class="copyright-text">Copyright <span id="copyright-year"></span>. All Rights Reserved.</p>
+                </div>
+            </div>  
         </div> 
         
         <!--Back Goes Here-->
@@ -169,13 +265,13 @@
                         <a class="menu-item" href="pageapp-soon.html"><i class="ion-ios-clock-outline"></i>Soon<i class="ion-record"></i></a>
                         <a class="menu-item" href="pageapp-login.html"><i class="ion-ios-unlocked-outline"></i>Login<i class="ion-record"></i></a>
                         <a class="menu-item" href="pageapp-register.html"><i class="ion-ios-locked-outline"></i>Register<i class="ion-record"></i></a>
-                        <a class="menu-item" href="pageapp-tasklist.html"><i class="ion-ios-checkmark-empty"></i>Tasklist<i class="ion-record"></i></a>
+                        <a class="menu-item active-item" href="pageapp-tasklist.html"><i class="ion-ios-checkmark-empty"></i>Tasklist<i class="ion-record"></i></a>
                         <a class="menu-item" href="pageapp-checklist.html"><i class="ion-ios-checkmark-outline"></i>Checklist<i class="ion-record"></i></a>
                         <a class="menu-item" href="pageapp-interests.html"><i class="ion-ios-lightbulb-outline"></i>Interests<i class="ion-record"></i></a>
                         <a class="menu-item" href="pageapp-calendar.html"><i class="ion-ios-calendar-outline"></i>Calendar<i class="ion-record"></i></a>
                         <a class="menu-item" href="pageapp-coverpage.html"><i class="ion-ios-albums-outline"></i>Coverpage<i class="ion-record"></i></a>                    
                         <a class="menu-item" href="pageapp-users.html"><i class="ion-ios-people-outline"></i>User Lists<i class="ion-record"></i></a>
-                        <a class="menu-item active-item" href="pageapp-map.html"><i class="ion-ios-navigate-outline"></i>Fullscreen Map<i class="ion-record"></i></a>
+                        <a class="menu-item" href="pageapp-map.html"><i class="ion-ios-navigate-outline"></i>Fullscreen Map<i class="ion-record"></i></a>
                     </div>
                 </div>
                 <div class="has-submenu">
@@ -243,5 +339,31 @@
     </div>
 </div>
     
-</div> <!-- page-transitions -->
+<div class="share-bottom share-dark">
+    <h3>Compartir</h3>
+    <div class="share-socials-bottom">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.prontatres.mx/">
+            <i class="ion-social-facebook-outline icon-ghost facebook-bg"></i>
+            Facebook
+        </a>
+        <a href="https://twitter.com/home?status=Check%20out%20ThemeForest%20https://www.prontatres.mx">
+            <i class="ion-social-twitter-outline twitter-bg"></i>
+            Twitter
+        </a>
+        <a href="https://plus.google.com/share?url=https://www.prontatres.mx">
+            <i class="ion-social-googleplus-outline icon-ghost google-bg"></i>
+            Google
+        </a>
+        <a href="sms:">
+            <i class="ion-ios-chatboxes-outline icon-ghost sms-bg"></i>
+            Text
+        </a>
+        <a href="mailto:?&subject=Te recomiendo esta página!&body=https://www.prontatres.mx">
+            <i class="ion-ios-email-outline icon-ghost mail-bg"></i>
+            Email
+        </a>
+        <div class="clear"></div>
+    </div>
+</div>    
+</div>
 </body>

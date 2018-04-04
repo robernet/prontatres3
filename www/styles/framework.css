@@ -927,6 +927,7 @@ ol ol ol{list-style-type:disc;}
     width: 40px;
     height: 40px;
     background-color: #FFF;
+    background-image: url('../img/logop3-40x40.png');
     -webkit-animation: sk-rotateplane 600ms infinite ease-in-out;
     animation: sk-rotateplane 600ms infinite ease-in-out;
 }

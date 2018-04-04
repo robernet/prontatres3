@@ -369,6 +369,14 @@ module.exports = [
       "navigator.notification",
       "navigator"
     ]
+  },
+  {
+    "id": "cordova-plugin-app-launcher.Launcher",
+    "file": "plugins/cordova-plugin-app-launcher/www/Launcher.js",
+    "pluginId": "cordova-plugin-app-launcher",
+    "clobbers": [
+      "plugins.launcher"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -384,7 +392,8 @@ module.exports.metadata =
   "cordova-plugin-geolocation": "2.4.3",
   "cordova-plugin-globalization": "1.0.9",
   "cordova-plugin-inappbrowser": "1.7.2",
-  "cordova-plugin-vibration": "2.1.6"
+  "cordova-plugin-vibration": "2.1.6",
+  "cordova-plugin-app-launcher": "0.4.0"
 };
 // BOTTOM OF METADATA
 });
