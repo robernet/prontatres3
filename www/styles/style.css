@@ -16,6 +16,7 @@
     line-height:60px;
     padding-left:20px;
     float:left;
+    white-space: nowrap;
 }
 
 .header .social-icons{
@@ -362,6 +363,10 @@
     bottom:20px;
     left:50%;
     margin-left:-25px;
+}
+
+#flip-buttons {
+    display: none;
 }
 
 .animated-flip-icon{
