@@ -24,7 +24,7 @@ table{    background-color: #f6f6f6;	border-left: 1px solid #e9e9e9;    	border-
 .select-box{border: 1px solid rgba(0,0,0,0.1);    background: #FFFFFF url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 95% 50%;}
 
 /*Input*/
-.input-text-box{    border:solid 1px rgba(0,0,0,0.1);           color:rgba(0,0,0,0.6);}
+.input-text-box{    border:solid 1px rgba(0,0,0,0.5);           color:rgba(0,0,0,0.6);}
 .input-text-line{   border-bottom:solid 1px rgba(0,0,0,0.1);    color:rgba(0,0,0,0.6);}
 
 .input-text-line:focus, .input-text-box:focus{color:#000000!important;}
